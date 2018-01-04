@@ -2,11 +2,15 @@ import java.util.*;
 
 public class Blackjack {
    public static void main(String[] args){
+      
       Scanner console = new Scanner(System.in);
+      Player p1 = new Player;
+      Player p2 = new Player;
+      
       System.out.println("Welcome to Blackjack!");
       System.out.print("Please enter the name of player 1: ");
-      String player1 = console.next();
+      p1.name = console.next();
       System.out.print("\nPlease enter the name of player 2: ");
-      String player2 = console.next();
+      p2.name = console.next();
    }
 }
