@@ -9,9 +9,9 @@ public class Blackjack {
       
       System.out.println("Welcome to Blackjack!");
       System.out.print("Please enter the name of player 1: ");
-      p1.name = console.next();
+      p1.setName = console.next();
       System.out.print("\nPlease enter the name of player 2: ");
-      p2.name = console.next();
+      p2.setName = console.next();
       System.out.println("=========================");
       System.out.println(p1 + " shows: ");
       System.out.println(p2 + " shows: ");
