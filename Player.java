@@ -44,3 +44,5 @@ public class Player {
    public double getScore() {
       return this.score;
    }   
+   
+}
