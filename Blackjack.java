@@ -6,6 +6,7 @@ public class Blackjack {
       Scanner console = new Scanner(System.in);
       Player p1 = new Player; //player 1 
       Player p2 = new Player;// Player 2
+      deck x = new deck;
       
       System.out.println("Welcome to Blackjack!");
       System.out.println("Please enter the name of player 1: ");
@@ -16,4 +17,5 @@ public class Blackjack {
       System.out.println(p1 + " shows: ");
       System.out.println(p2 + " shows: ");
    }
+   
 }
