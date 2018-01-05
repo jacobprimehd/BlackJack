@@ -14,8 +14,12 @@ public class Player {
       return this.name;
    }
    
-   public void cardToHand(String x) {
+   public void setHand(String x) {
       hand.add(x);
+   }
+   
+   public void clearHand() {
+      hand.clear();   
    }
    
    public ArrayList<String> getHand() {
@@ -33,7 +37,7 @@ public class Player {
    
    
    public void setScore(double x) {
-      this.score = x;
+      this.score += x;
    }
    
    public double getScore() {
