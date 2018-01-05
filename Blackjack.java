@@ -8,9 +8,9 @@ public class Blackjack {
       Player p2 = new Player;// Player 2
       
       System.out.println("Welcome to Blackjack!");
-      System.out.print("Please enter the name of player 1: ");
+      System.out.println("Please enter the name of player 1: ");
       p1.setName = console.next();
-      System.out.print("\nPlease enter the name of player 2: ");
+      System.out.println("Please enter the name of player 2: ");
       p2.setName = console.next();
       System.out.println("=========================");
       System.out.println(p1 + " shows: ");
