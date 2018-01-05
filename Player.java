@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Player {
 
    private String name;
@@ -12,18 +14,11 @@ public class Player {
       return this.name;
    }
    
-   
-   public void setHand(String[] x) {
-      for(int i = 1; i <= x.length; i++) {   
-         hand.add(x[i]);
-      }   
-   }
-   
    public void cardToHand(String x) {
       hand.add(x);
    }
    
-   public String getHand() {
+   public ArrayList<String> getHand() {
       return this.hand;
    }
    
@@ -45,4 +40,4 @@ public class Player {
       return this.score;
    }   
    
-}
+}                                                                        
