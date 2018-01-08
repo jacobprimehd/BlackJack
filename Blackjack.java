@@ -4,9 +4,9 @@ public class Blackjack {
    public static void main(String[] args){
       
       Scanner console = new Scanner(System.in);
-      //Player p1 = new Player; //player 1 
-      //Player p2 = new Player; // Player 2
-      //deck x = new deck;
+      Player p1 = new Player; //player 1 
+      Player p2 = new Player; // Player 2
+      deck card = new deck;
       int x = 0;
       int game = 0;
       
