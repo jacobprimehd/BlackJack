@@ -14,21 +14,21 @@ public class Player {
       return this.name;
    }
    
-   public void setHand(String x) {
-      hand.add(x);
-   }
+//    public void setHand(String x) {
+//       hand.add(x);
+//    }
+//    
+//    public void clearHand() {
+//       hand.clear();   
+//    }
+//    
+//    public ArrayList<String> getHand() {
+//       return this.hand;
+//    }
    
-   public void clearHand() {
-      hand.clear();   
-   }
    
-   public ArrayList<String> getHand() {
-      return this.hand;
-   }
-   
-   
-   public void setStartingCard() {
-      this.startingCard = hand.get(0);
+   public void setStartingCard(String starting) {
+      this.startingCard = starting;
    }
    
    public String getStartingCard() {
@@ -44,4 +44,4 @@ public class Player {
       return this.score;
    }   
    
-}                                                                        
+}             
